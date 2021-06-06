@@ -11,7 +11,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'airbnb-base',
   ],
-  plugins: ['sonarjs', 'promise', 'import'],
+  plugins: [],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
