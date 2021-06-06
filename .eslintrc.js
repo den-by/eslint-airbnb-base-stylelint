@@ -8,6 +8,7 @@ module.exports = {
     'plugin:sonarjs/recommended',
     'plugin:promise/recommended',
     'plugin:import/recommended',
+    'plugin:unicorn/recommended',
     'airbnb-base',
   ],
   plugins: ['sonarjs', 'promise', 'import'],
@@ -18,5 +19,8 @@ module.exports = {
   rules: {
     'no-new-wrappers': 'error',
     'default-param-last': 'error',
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-module': 'off',
+    'no-use-before-define': ['error', { functions: false, classes: false }],
   },
 };
